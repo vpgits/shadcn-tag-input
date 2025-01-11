@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <!-- Base gradient -->
+    <linearGradient id="baseGradient" x1="20%" y1="10%" x2="80%" y2="90%">
+      <stop offset="0%" style="stop-color:#1a2f1c;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#2d4a33;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a5d32;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Radial overlay for more organic feel -->
+    <radialGradient id="overlayGradient" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" style="stop-color:#2d4a33;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#1a2f1c;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base circle with linear gradient -->
+  <circle cx="32" cy="32" r="32" fill="url(#baseGradient)"/>
+  
+  <!-- Overlay circle with radial gradient -->
+  <circle cx="32" cy="32" r="32" fill="url(#overlayGradient)"/>
+</svg>
