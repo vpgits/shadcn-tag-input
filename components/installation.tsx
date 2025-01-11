@@ -18,7 +18,7 @@ export default function Installation() {
           showLineNumbers
           lang="bash"
           className="w-full"
-          code={`npx shadcn add https://shadcn-tag-input.vercel.app/registry/tag-input.json`}
+          code={`npx shadcn add https://shadcn-tag-input-kappa.vercel.app/registry/tag-input.json`}
         />
       </div>
     </div>
